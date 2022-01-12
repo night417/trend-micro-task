@@ -1,0 +1,13 @@
+.return-button {
+  padding-right: 4px;
+  cursor: pointer;
+  &:hover {
+    border-bottom: 2px solid $color-blue;
+    font-weight: 700;
+  }
+  &__text {
+    margin-left: 3px;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+  }
+}
