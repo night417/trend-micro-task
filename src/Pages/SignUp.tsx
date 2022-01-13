@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button } from "../Components/Button";
 import { Comfirm } from "../Components/Comfirm";
 import { Input } from "../Components/Input";
+import { Link } from "../Components/Link";
 import { ReturnButton } from "../Components/ReturnButton";
 import { staticText } from "../util/staticText";
 
@@ -50,11 +51,16 @@ export const SignUp = () => {
               setIsChecked={setIsChecked}
             />
             <Button
+              className="sign-up__btn-create"
               text={sign_up.btn_create}
               onClick={() => {
                 if (!isChecked) alert(sign_up.alert_msg);
               }}
             />
+            <p className="sign-up__log-in-text">
+              {sign_up.login.text}&nbsp;
+              <Link text={sign_up.login.link} to="/log-in" />
+            </p>
           </div>
         </div>
       </div>
