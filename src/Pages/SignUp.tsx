@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Button } from "../Components/Button";
+import { Input } from "../Components/Input";
 import { ReturnButton } from "../Components/ReturnButton";
 import { staticText } from "../util/staticText";
 
@@ -30,6 +31,17 @@ export const SignUp = () => {
                 onClick={() => {}}
               />
             </div>
+            <div className="sign-up__separator">
+              <hr />
+              <span>{sign_up.separator}</span>
+            </div>
+            <div className="sign-up__inputs-box">
+              <Input className="sign-up__inputs" name="First Name" />
+              <Input className="sign-up__inputs" name="Last Name" />
+            </div>
+            <Input name="E-mail" type="email" />
+            <Input name="Password" type="password" />
+
             <Button text={sign_up.btn_create} onClick={() => {}} />
           </div>
         </div>

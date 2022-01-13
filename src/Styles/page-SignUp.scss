@@ -16,7 +16,7 @@
   padding: 75px 105px 35px;
 }
 
-.return-btn-box {
+.sign-up__return-btn {
   position: absolute;
   top: 30px;
   left: 30px;
@@ -44,4 +44,28 @@
   .sign-up__btns {
     width: calc(50% - 10px);
   }
+}
+
+.sign-up__separator {
+  margin-top: 29px;
+  span {
+    background-color: $color-white;
+    padding-right: 9px;
+    font-size: 0.875rem;
+  }
+  hr {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    border-top: 1px solid $color-black;
+  }
+}
+
+.sign-up__inputs-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+}
+.sign-up__inputs {
+  width: calc(50% - 10px);
 }
