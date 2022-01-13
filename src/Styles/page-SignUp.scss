@@ -84,3 +84,16 @@
   color: $color-gray;
   font-size: 0.8125rem;
 }
+
+@media screen and(max-width:610px) {
+  .sign-up__content-box {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+    padding: 82px 20px 20px;
+  }
+  .sign-up__return-btn {
+    top: 24px;
+    left: 20px;
+  }
+}
