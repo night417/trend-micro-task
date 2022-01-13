@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { Button } from "../Components/Button";
+import { Comfirm } from "../Components/Comfirm";
 import { Input } from "../Components/Input";
 import { ReturnButton } from "../Components/ReturnButton";
 import { staticText } from "../util/staticText";
 
 export const SignUp = () => {
   const { sign_up } = staticText;
+  const [isChecked, setIsChecked] = useState(false);
 
   return (
     <div id="sign-up">
@@ -41,8 +43,18 @@ export const SignUp = () => {
             </div>
             <Input name="E-mail" type="email" />
             <Input name="Password" type="password" />
-
-            <Button text={sign_up.btn_create} onClick={() => {}} />
+            <Comfirm
+              className="sign-up__comfirm--privacy"
+              text={sign_up.comfirm}
+              isChecked={isChecked}
+              setIsChecked={setIsChecked}
+            />
+            <Button
+              text={sign_up.btn_create}
+              onClick={() => {
+                if (!isChecked) alert(sign_up.alert_msg);
+              }}
+            />
           </div>
         </div>
       </div>

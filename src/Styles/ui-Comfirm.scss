@@ -1,0 +1,19 @@
+.comfirm {
+  display: flex;
+}
+.comfirm__tick-box {
+  width: 32px;
+  display: flex;
+  align-items: center;
+  .comfirm__tick {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(calc(-50% - 4px));
+  }
+}
+.comfirm__text {
+  color: $color-gray;
+  font-size: 0.8125rem;
+  width: 100%;
+}
