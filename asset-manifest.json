@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/trend-micro-task/static/css/main.58feb6ee.css",
+    "main.js": "/trend-micro-task/static/js/main.c40ccdf8.js",
+    "static/js/787.f79bba25.chunk.js": "/trend-micro-task/static/js/787.f79bba25.chunk.js",
+    "static/media/icon_eye.svg": "/trend-micro-task/static/media/icon_eye.8916e2747606036181e7436427d451cc.svg",
+    "index.html": "/trend-micro-task/index.html",
+    "static/media/icon_google.svg": "/trend-micro-task/static/media/icon_google.e3a3b6e08ed40d81f24acda995246248.svg",
+    "static/media/icon_facebook.svg": "/trend-micro-task/static/media/icon_facebook.06c147387379b77b1675f0a75ff46a0d.svg",
+    "static/media/icon_check.svg": "/trend-micro-task/static/media/icon_check.418c4e863370ce234faa83e8a4de3575.svg",
+    "static/media/tickbox_tick.svg": "/trend-micro-task/static/media/tickbox_tick.df45687e06222216bfe3ed59ba6fecc8.svg",
+    "static/media/tickbox_true.svg": "/trend-micro-task/static/media/tickbox_true.be1061eeec13d6ae3089c386996d7489.svg",
+    "static/media/tickbox_false.svg": "/trend-micro-task/static/media/tickbox_false.b33b4aa2ec1a89c5b3037e61e3392134.svg",
+    "main.58feb6ee.css.map": "/trend-micro-task/static/css/main.58feb6ee.css.map",
+    "main.c40ccdf8.js.map": "/trend-micro-task/static/js/main.c40ccdf8.js.map",
+    "787.f79bba25.chunk.js.map": "/trend-micro-task/static/js/787.f79bba25.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58feb6ee.css",
+    "static/js/main.c40ccdf8.js"
+  ]
+}
