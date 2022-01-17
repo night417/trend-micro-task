@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 export const ReturnButton = ({
   text,
@@ -10,9 +10,9 @@ export const ReturnButton = ({
   path: string;
   className?: string;
 }) => {
-  let navigate = useNavigate();
+  // let navigate = useNavigate();
   return (
-    <a className={`return-button ${className}`} onClick={() => navigate(path)}>
+    <a className={`return-button ${className}`} onClick={() => {}}>
       ←<span className="return-button__text">{text}</span>
     </a>
   );

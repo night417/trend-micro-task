@@ -1,11 +1,13 @@
 import React from "react";
-import { Router } from "./Router";
+import { SignUp } from "./Pages/SignUp";
+// import { Router } from "./Router";
 import "./Styles/app.scss";
 
 function App() {
   return (
     <div className="App">
-      <Router />
+      {/* <Router /> */}
+      <SignUp />
     </div>
   );
 }
